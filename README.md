@@ -15,7 +15,7 @@ TBD
 
 ## Credits
 
-TBD
+Unordered list not aligning all the way to the left in a div, Stack Overflow, https://stackoverflow.com/questions/10972096/unordered-list-not-aligning-all-the-way-to-the-left-in-a-div
 
 ## License
 

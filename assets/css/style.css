@@ -2,10 +2,11 @@
 :root {
     --sea-green: #044258;
     --light-green: #61adc9;
-    --light-greyy: #d2d2d2;
+    --light-grey: #adadad;
     --white: #ffffff;
     --black: #000000;
 }
+
 
 /* Define overarching body properties that will apply to all components of the webpage unless otherwise specified */
 body {
@@ -14,6 +15,39 @@ body {
 
     /* All body text should be black unless otherwise specified*/
     color: var(--black)
+}
+
+/* Define header propperties. Add padding, define font family, set background color and font color */
+header {
+    /* Add 10px padding for the header */
+    padding: 10px;
+
+    /* Set the header background to sea green as previously defined. */
+    background-color: var(--sea-green);
+
+    /* Set header text to white */
+    color: var(--white);
+}
+
+/* Adjust text location of navegation bar */
+header ul {
+    /* Move text to the left */
+    margin-left: -50px;
+
+    /* Move text up */
+    margin-top: -20px;
+}
+
+/* Additional styling for the navegation bar */
+header ul li {
+    /* Remove the list item markers */
+    list-style-type: none;
+
+    /* Display list items inline instead of vertically */
+    display: inline-block;
+
+    /* Add 15px space to the left hand side of each item */
+    margin-left: 15px;
 }
 
 /* Define the properties of each section */
@@ -28,28 +62,14 @@ section {
     border: 2px solid
 }
 
-/* Styling for the navegation bar */
-.header ul, .header ul li {
-    /* Remove the list item markers */
-    list-style-type: none;
-
-    /* Display list items inline instead of vertically */
-    display: inline-block;
-
-    /* Add 15px space to the left hand side of each item */
-    margin-left: 15px;
+/* Change subheader color to light grey and remove the underline from the navegation bar */
+a {
+    color: var(--light-grey);
+    text-decoration: none;
 }
 
-
-
-/* Define header propperties. Add padding, define font family, set background color and font color */
-.header {
-    /* Add 10px padding for the header */
-    padding: 10px;
-
-    /* Set the header background to sea green as previously defined. */
-    background-color: var(--sea-green);
-
-    /* Set header text to white */
-    color: var(--white);
+/* Move the paragraph text closer to the section title */
+p {    
+    /* Move text up */
+    margin-top: -10px;
 }
