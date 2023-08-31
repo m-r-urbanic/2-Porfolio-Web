@@ -6,16 +6,14 @@
     --black: #000000;
 }
 
-.test-me {
-    display:flex;
-    flex-direction: column;
 
-}
 
 .work-rows{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
     flex-direction: row;
+
   }
 
 .main-image{
@@ -76,6 +74,7 @@ section {
     border: 2px solid Var(--sea-green);
 
     display:flex;
+    
     flex-direction:column;
 }
 
@@ -93,4 +92,12 @@ p {
 
 h3 {
     color: Var(--sea-green)
+}
+
+img: {
+
+}
+
+img:hover {
+    box-shadow: inset 0px 0px 8px #ed09d6, 0 0 15px #ed09d6;
 }

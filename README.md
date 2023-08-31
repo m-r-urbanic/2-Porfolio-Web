@@ -21,6 +21,8 @@ CSS: Flexbox within Flexbox, Stack Overflow, https://stackoverflow.com/questions
 
 Basic concepts of flexbox, mdn web docs, https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox
 
+Adding space between flexbox items, Stack Overflow, https://stackoverflow.com/questions/49329905/adding-space-between-flexbox-items
+
 
 ## License
 
