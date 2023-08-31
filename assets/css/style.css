@@ -16,6 +16,17 @@ body {
     color: var(--black)
 }
 
+/* Define the properties of each section */
+section {
+    /* Set the thickness of the section margins such that the top margin is the same as the bottom margin */
+    margin: 1rem 0 1rem 0;
+
+    /* Add padding so that the text looks good inside of the box, more padding from the sides than from the top and bottom */
+    padding: .5rem 1.5rem;
+    /* Create a solid border, do not define color, color will be set by section type */
+    border: 2px solid
+}
+
 /* Define header propperties. Add padding, define font family, set background color and font color */
 .header {
     /* Add 10px padding for the header */
