@@ -27,6 +27,8 @@ How to vertically Align a Text Next to the Image, w3 docs, https://www.w3docs.co
 
 How To Embed A Hyperlink In An Image, HYPERRISE, https://hyperise.com/blog/how-to-embed-a-hyperlink-in-an-image#:~:text=Put%20the%20anchor%20tag%20%3Ca,http%3A%2F%2F%E2%80%9D%20before%20the%20link.
 
+HTML Semantic Elements, W3Schools, https://www.w3schools.com/html/html5_semantic_elements.asp
+
 
 ## License
 
