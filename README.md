@@ -23,6 +23,9 @@ Basic concepts of flexbox, mdn web docs, https://developer.mozilla.org/en-US/doc
 
 Adding space between flexbox items, Stack Overflow, https://stackoverflow.com/questions/49329905/adding-space-between-flexbox-items
 
+How to vertically Align a Text Next to the Image, w3 docs, https://www.w3docs.com/snippets/css/how-to-vertically-align-text-next-to-an-image.html
+
+
 
 ## License
 

@@ -43,6 +43,8 @@ header {
 
     /* Set header text to white */
     color: var(--white);
+
+    display: flex
 }
 
 /* Adjust text location of navegation bar */
@@ -98,8 +100,8 @@ h3 {
     color: Var(--sea-green)
 }
 
-img: {
-
+.img-size {
+    width: 200px
 }
 
 img:hover {
