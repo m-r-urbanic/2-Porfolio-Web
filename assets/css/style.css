@@ -23,9 +23,24 @@ section {
 
     /* Add padding so that the text looks good inside of the box, more padding from the sides than from the top and bottom */
     padding: .5rem 1.5rem;
+
     /* Create a solid border, do not define color, color will be set by section type */
     border: 2px solid
 }
+
+/* Styling for the navegation bar */
+.header ul, .header ul li {
+    /* Remove the list item markers */
+    list-style-type: none;
+
+    /* Display list items inline instead of vertically */
+    display: inline-block;
+
+    /* Add 15px space to the left hand side of each item */
+    margin-left: 15px;
+}
+
+
 
 /* Define header propperties. Add padding, define font family, set background color and font color */
 .header {
