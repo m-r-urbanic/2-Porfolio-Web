@@ -17,6 +17,11 @@ TBD
 
 Unordered list not aligning all the way to the left in a div, Stack Overflow, https://stackoverflow.com/questions/10972096/unordered-list-not-aligning-all-the-way-to-the-left-in-a-div
 
+CSS: Flexbox within Flexbox, Stack Overflow, https://stackoverflow.com/questions/40862933/css-flexbox-within-flexbox
+
+Basic concepts of flexbox, mdn web docs, https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox
+
+
 ## License
 
 MIT Liscense

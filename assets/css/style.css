@@ -6,6 +6,20 @@
     --black: #000000;
 }
 
+.test-me {
+    display:flex
+    flex-direction: column;
+
+}
+
+.testy-test {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    /* center each flex item along the cross axis */
+    text-align: center;
+    /* horizontally center content within flex item */
+}
 
 /* Define overarching body properties that will apply to all components of the webpage unless otherwise specified */
 body {
@@ -58,7 +72,10 @@ section {
     padding: .5rem 1.5rem;
 
     /* Create a solid border, do not define color, color will be set by section type */
-    border: 2px solid Var(--sea-green)
+    border: 2px solid Var(--sea-green);
+
+    display:flex;
+    flex-direction:column;
 }
 
 /* Change subheader color to light grey and remove the underline from the navegation bar */
