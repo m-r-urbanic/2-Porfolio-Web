@@ -1,7 +1,6 @@
 /* Define colors that will be used throughout the webpage */
 :root {
     --sea-green: #044258;
-    --light-green: #61adc9;
     --light-grey: #adadad;
     --white: #ffffff;
     --black: #000000;
@@ -59,7 +58,7 @@ section {
     padding: .5rem 1.5rem;
 
     /* Create a solid border, do not define color, color will be set by section type */
-    border: 2px solid
+    border: 2px solid Var(--sea-green)
 }
 
 /* Change subheader color to light grey and remove the underline from the navegation bar */
@@ -72,4 +71,8 @@ a {
 p {    
     /* Move text up */
     margin-top: -10px;
+}
+
+h3 {
+    color: Var(--sea-green)
 }
