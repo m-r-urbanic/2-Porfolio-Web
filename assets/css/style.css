@@ -7,18 +7,19 @@
 }
 
 .test-me {
-    display:flex
+    display:flex;
     flex-direction: column;
 
 }
 
-.testy-test {
+.work-rows{
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
+  }
+
+.main-image{
     align-self: center;
-    /* center each flex item along the cross axis */
-    text-align: center;
-    /* horizontally center content within flex item */
 }
 
 /* Define overarching body properties that will apply to all components of the webpage unless otherwise specified */
