@@ -28,13 +28,51 @@
 }
 
 /* Aligning text over image */
-.img-holder {position: relative; display: inline-block;}
+.img-holder, .img-holder-2 {
+    position: relative; 
+    display: inline-block;
+}
 
-/* Define the text position */
-.img-holder h4 {position: absolute; top: 75%; left: 00; right: 0; transform: translate(0, -50%); text-align: center; color: var(--white); text-shadow: 0 0 5px var(--black);}
+/* Define the text position used by all image lables */
+.img-holder h4, .img-holder p, .img-holder-2 h4, .img-holder-2 p {
+    position: absolute; 
+    right: 0; 
+    transform: translate(0, -50%); 
+    color: var(--white); 
+    text-shadow: 0 0 5px var(--black);
+}
 
-/* Define the text position */
-.img-holder p {position: absolute; top: 90%; left: 0; right: 0; transform: translate(0, -50%); text-align: center; color: var(--white); text-shadow: 0 0 5px var(--black);}
+/* Define the text position small images */
+.img-holder h4 {
+    /* distance from the top and left of the image */
+    top: 75%; 
+    left: 0; 
+    text-align: center; 
+}
+
+/* Define the text position small images */
+.img-holder p {
+    /* distance from the top and left of the image */
+    top: 90%; 
+    left: 0; 
+    text-align: center; 
+}
+
+/* Define the text position large image */
+.img-holder-2 h4 {
+    /* distance from the top and left of the image */
+    top: 82%; 
+    left: 2%; 
+    text-align: left; 
+}
+
+/* Define the text position large image */
+.img-holder-2 p {
+    /* distance from the top and left of the image */
+    top: 90%; 
+    left: 2%; 
+    text-align: left; 
+}
 
 /* Define overarching body properties that will apply to all components of the webpage unless otherwise specified */
 body {
