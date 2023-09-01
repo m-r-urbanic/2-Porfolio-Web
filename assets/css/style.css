@@ -95,7 +95,21 @@ header {
     color: var(--white);
 
     /* Make header a flexbox */
-    display: flex
+    display: flex;
+}
+
+footer {
+    /* Add 10px padding for the header */
+    padding: 10px;
+
+    /* Set the header background to sea green as previously defined. */
+    background-color: var(--sea-green);
+
+    /* Set header text to white */
+    color: var(--white);
+
+    /* Make header a flexbox */
+    display: flex;
 }
 
 /* Adjust text location of navegation bar */
