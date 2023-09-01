@@ -31,10 +31,10 @@
 .img-holder {position: relative; display: inline-block;}
 
 /* Define the text position */
-.img-holder h4 {position: absolute; top: 75%; left: 00; right: 0; transform: translate(0, -50%); text-align: center; color: #d80e0e; text-shadow: 0 0 15px;}
+.img-holder h4 {position: absolute; top: 75%; left: 00; right: 0; transform: translate(0, -50%); text-align: center; color: var(--white); text-shadow: 0 0 5px var(--black);}
 
 /* Define the text position */
-.img-holder p {position: absolute; top: 90%; left: 0; right: 0; transform: translate(0, -50%); text-align: center; color: #d80e0e; text-shadow: 0 0 15px;}
+.img-holder p {position: absolute; top: 90%; left: 0; right: 0; transform: translate(0, -50%); text-align: center; color: var(--white); text-shadow: 0 0 5px var(--black);}
 
 /* Define overarching body properties that will apply to all components of the webpage unless otherwise specified */
 body {
