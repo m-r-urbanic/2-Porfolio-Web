@@ -1,28 +1,28 @@
 /* Define colors that will be used throughout the webpage */
 :root {
     --sea-green: #044258;
+    --bright-green: #03dde4;
     --light-grey: #adadad;
     --white: #ffffff;
     --black: #000000;
 }
 
+/* Center the main image */
+.main-image{
+    margin-left: auto;
+    margin-right: auto;
+}
 
-
+/* Create the flexbox for the smaller images */
 .work-rows{
     display: flex;
     flex-wrap: wrap;
+    /* Add space on all sides of the content */
     justify-content: space-around;
     flex-direction: row;
-
   }
 
-.carmen-img {
-    width: 500px;
-}
 
-.main-image{
-    align-self: center;
-}
 
 /* Define overarching body properties that will apply to all components of the webpage unless otherwise specified */
 body {
@@ -44,6 +44,7 @@ header {
     /* Set header text to white */
     color: var(--white);
 
+    /* Make header a flexbox */
     display: flex
 }
 
@@ -79,8 +80,10 @@ section {
     /* Create a solid border, do not define color, color will be set by section type */
     border: 2px solid Var(--sea-green);
 
+    /* Make each section a flexbox */
     display:flex;
     
+    /* Set flex direction */
     flex-direction:column;
 }
 
@@ -96,14 +99,20 @@ p {
     margin-top: -10px;
 }
 
+/* Set h3, the subheader used for individual sections, to sea green */
 h3 {
     color: Var(--sea-green)
 }
 
-.img-size {
-
+img{
+    max-width: 100%;
+    height: auto;
 }
 
+/* Set box to change color and have a dropshadow around it */
 img:hover {
-    box-shadow: inset 0px 0px 8px #ed09d6, 0 0 15px #ed09d6;
+    /* Add shaddow when you hover over it */
+    box-shadow: inset 0px 0px 8px var(--bright-green), 0 0 15px var(--bright-green);
+    /* Saturate image when you hover over it */
+    filter: saturate(7);
 }

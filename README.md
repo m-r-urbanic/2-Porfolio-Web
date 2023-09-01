@@ -29,6 +29,17 @@ How To Embed A Hyperlink In An Image, HYPERRISE, https://hyperise.com/blog/how-t
 
 HTML Semantic Elements, W3Schools, https://www.w3schools.com/html/html5_semantic_elements.asp
 
+CSS Styling Images, W3Schools, https://www.w3schools.com/css/css3_images.asp
+
+Photo by Mikhail Nilov: https://www.pexels.com/photo/a-laptop-and-calculator-on-a-wooden-table-6963055/
+
+Photo by Tina Nord: https://www.pexels.com/photo/photography-of-small-blue-and-brown-bird-792416/
+
+Photo by Jose Cruz Y Corro: https://www.pexels.com/photo/waxing-moon-crescent-in-black-night-sky-18051705/
+
+Photo by Josh Sorenson: https://www.pexels.com/photo/body-of-water-beside-beach-sand-386148/
+
+Photo by Elina Sazonova: https://www.pexels.com/photo/person-holding-map-inside-vehicle-2705756/
 
 ## License
 
