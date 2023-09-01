@@ -7,15 +7,20 @@ This project is a personal portfolio of the projects and assignments I create th
 This is showcasing my understanding of HTML and CSS in order to make a basic webpage.
 
 All code outside sources and code utalized are linked below in the "Credits" section. Each image used other than my profile picture (which is taken and owned by myself) is also linked in the credits section. Because I do not have projects to display yet, clicking on each project image will take the user to the source of the image used.
+
 ## Installation
 
 This project can be downloaded (as a whole) and ran in Visual Studio Code with no additional modifications.
 
 ## Usage
 
+https://m-r-urbanic.github.io/2-Portfolio-Web/
+
 After opening the page in your browser, you can use the "About Me", "My Work", and "Contact Me" buttons in the navegation bar to go to each section. If you click any of the items in the "My Work" section, you will be taken to the source image for that item.
 
-The webpage should will adjust as the screen size changes.
+The webpage will adjust as the screen size changes.
+
+![image of refactored webpage](assets/images/screenshot.png)
 
 ## Credits
 
