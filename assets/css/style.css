@@ -18,6 +18,11 @@
     border-radius:50%;
 }
 
+/* Make my profile picture circle */
+.self {
+    border-radius:50%;
+}
+
 /* Create the flexbox for the smaller images */
 .work-rows{
     display: flex;
