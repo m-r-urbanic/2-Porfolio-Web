@@ -5,6 +5,8 @@
 This project is a personal portfolio of the projects and assignments I create through the bootcamp. This webpage contains a profile picture and contact information, the project link sections will lead to blank webpages initially and will be updated as I progress through the course.
 
 This is showcasing my understanding of HTML and CSS in order to make a basic webpage.
+
+All code outside sources and code utalized are linked below in the "Credits" section. Each image used other than my profile picture (which is taken and owned by myself) is also linked in the credits section. Because I do not have projects to display yet, clicking on each project image will take the user to the source of the image used.
 ## Installation
 
 This project can be downloaded (as a whole) and ran in Visual Studio Code with no additional modifications.

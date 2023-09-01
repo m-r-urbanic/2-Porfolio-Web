@@ -99,7 +99,7 @@ header {
 }
 
 /* Adjust text location of navegation bar */
-header ul {
+ul {
     /* Move text to the left */
     margin-left: -50px;
 
@@ -108,7 +108,7 @@ header ul {
 }
 
 /* Additional styling for the navegation bar */
-header ul li {
+ul li {
     /* Remove the list item markers */
     list-style-type: none;
 
