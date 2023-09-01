@@ -99,17 +99,16 @@ header {
 }
 
 footer {
-    /* Add 10px padding for the header */
+    /* Add 10px padding for the footer */
     padding: 10px;
 
-    /* Set the header background to sea green as previously defined. */
+    /* Set the footer background to sea green as previously defined. */
     background-color: var(--sea-green);
 
-    /* Set header text to white */
+    /* Set footer text to white */
     color: var(--white);
-
-    /* Make header a flexbox */
-    display: flex;
+    /* Align text to center */
+    text-align:center;
 }
 
 /* Adjust text location of navegation bar */
