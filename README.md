@@ -13,11 +13,13 @@ This project can be downloaded (as a whole) and ran in Visual Studio Code with n
 
 ## Usage
 
-TBD
+After opening the page in your browser, you can use the "About Me", "My Work", and "Contact Me" buttons in the navegation bar to go to each section. If you click any of the items in the "My Work" section, you will be taken to the source image for that item.
+
+The webpage should will adjust as the screen size changes.
 
 ## Credits
 
-Sources used
+Please see links to all code referanced or used and images used below. The header image and all images used to test belong to me.
 
 Unordered list not aligning all the way to the left in a div, Stack Overflow, https://stackoverflow.com/questions/10972096/unordered-list-not-aligning-all-the-way-to-the-left-in-a-div
 
