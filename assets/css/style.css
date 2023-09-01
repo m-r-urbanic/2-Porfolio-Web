@@ -7,15 +7,15 @@
     --black: #000000;
 }
 
-/* Center the main image */
+/* Center the main image and make it change size as the page grows or shrinks */
 .main-image{
     margin-left: auto;
     margin-right: auto;
 }
 
 /* Make the sub-images circles */
-.sub-image {
-    border-radius:50%
+.sub-img {
+    border-radius:50%;
 }
 
 /* Create the flexbox for the smaller images */
@@ -27,7 +27,11 @@
     flex-direction: row;
 }
 
+/* Aligning text over image */
+.img-holder {position: relative; display: inline-block;}
 
+/* Define the text position */
+.img-holder p {position: absolute; top: 50%; left: 0; right: 0; transform: translate(0, -50%); text-align: center; color: #fff; text-shadow: 0 0 15px;}
 
 /* Define overarching body properties that will apply to all components of the webpage unless otherwise specified */
 body {
@@ -35,7 +39,7 @@ body {
     font-family: Arial, sans-serif;
 
     /* All body text should be black unless otherwise specified*/
-    color: var(--black)
+    color: var(--black);
 }
 
 /* Define header propperties. Add padding, define font family, set background color and font color */
@@ -114,8 +118,8 @@ img{
     height: auto;
 }
 
-/* Set box to change color and have a dropshadow around it */
-img:hover {
+/* Set images other than the profile image to change color and have a dropshadow around it */
+.main-image:hover, .sub-img:hover {
     /* Add shaddow when you hover over it */
     box-shadow: inset 0px 0px 8px var(--bright-green), 0 0 15px var(--bright-green);
     /* Saturate image when you hover over it */

@@ -15,6 +15,8 @@ TBD
 
 ## Credits
 
+Sources used
+
 Unordered list not aligning all the way to the left in a div, Stack Overflow, https://stackoverflow.com/questions/10972096/unordered-list-not-aligning-all-the-way-to-the-left-in-a-div
 
 CSS: Flexbox within Flexbox, Stack Overflow, https://stackoverflow.com/questions/40862933/css-flexbox-within-flexbox
@@ -30,6 +32,8 @@ How To Embed A Hyperlink In An Image, HYPERRISE, https://hyperise.com/blog/how-t
 HTML Semantic Elements, W3Schools, https://www.w3schools.com/html/html5_semantic_elements.asp
 
 CSS Styling Images, W3Schools, https://www.w3schools.com/css/css3_images.asp
+
+Center text over an image in flexbox, Stack Overflow, https://stackoverflow.com/questions/35871294/center-text-over-an-image-in-flexbox
 
 Photo by Mikhail Nilov: https://www.pexels.com/photo/a-laptop-and-calculator-on-a-wooden-table-6963055/
 
