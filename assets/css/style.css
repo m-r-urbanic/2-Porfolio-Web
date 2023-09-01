@@ -13,6 +13,11 @@
     margin-right: auto;
 }
 
+/* Make the sub-images circles */
+.sub-image {
+    border-radius:50%
+}
+
 /* Create the flexbox for the smaller images */
 .work-rows{
     display: flex;
@@ -20,7 +25,7 @@
     /* Add space on all sides of the content */
     justify-content: space-around;
     flex-direction: row;
-  }
+}
 
 
 
