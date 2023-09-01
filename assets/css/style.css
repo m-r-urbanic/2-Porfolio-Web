@@ -31,7 +31,10 @@
 .img-holder {position: relative; display: inline-block;}
 
 /* Define the text position */
-.img-holder p {position: absolute; top: 50%; left: 0; right: 0; transform: translate(0, -50%); text-align: center; color: #fff; text-shadow: 0 0 15px;}
+.img-holder h4 {position: absolute; top: 40%; left: 5%; right: 0; transform: translate(0, -50%); text-align: left; color: #d80e0e; text-shadow: 0 0 15px;}
+
+/* Define the text position */
+.img-holder p {position: absolute; top: 55%; left: 5%; right: 0; transform: translate(0, -50%); text-align: left; color: #d80e0e; text-shadow: 0 0 15px;}
 
 /* Define overarching body properties that will apply to all components of the webpage unless otherwise specified */
 body {
