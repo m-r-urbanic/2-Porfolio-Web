@@ -20,7 +20,7 @@ After opening the page in your browser, you can use the "About Me", "My Work", a
 
 The webpage will adjust as the screen size changes.
 
-![image of refactored webpage](assets/images/screenshot.png)
+![image of refactored webpage](assets/images/newScreenshot.png)
 
 ## Credits
 
