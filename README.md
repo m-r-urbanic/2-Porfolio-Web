@@ -16,7 +16,7 @@ This project can be downloaded (as a whole) and ran in Visual Studio Code with n
 
 https://m-r-urbanic.github.io/2-Portfolio-Web/
 
-After opening the page in your browser, you can use the "About Me", "My Work", and "Contact Me" buttons in the navegation bar to go to each section. If you click any of the items in the "My Work" section, you will be taken to the source image for that item.
+After opening the page in your browser, you can use the "About Me", "My Work", and "Contact Me" buttons in the navegation bar to go to each section. The first image leads to my first group porject, the 'Gaming Holidays' webpage. If you click any of the other items in the "My Work" section, you will be taken to the source image for that item.
 
 The webpage will adjust as the screen size changes.
 
@@ -24,7 +24,7 @@ The webpage will adjust as the screen size changes.
 
 ## Credits
 
-Please see links to all code referanced or used and images used below. The header image and all images used to test belong to me.
+Please see links to all code referanced or used and images used below. The header image and all images used to test belong to me. The images from gaming holidays belong to the respective game owners.
 
 Unordered list not aligning all the way to the left in a div, Stack Overflow, https://stackoverflow.com/questions/10972096/unordered-list-not-aligning-all-the-way-to-the-left-in-a-div
 
